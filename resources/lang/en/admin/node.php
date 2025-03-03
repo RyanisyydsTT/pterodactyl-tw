@@ -2,15 +2,15 @@
 
 return [
     'validation' => [
-        'fqdn_not_resolvable' => 'The FQDN or IP address provided does not resolve to a valid IP address.',
-        'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
+        'fqdn_not_resolvable' => '該FQDN或IP位址無法被解析。',
+        'fqdn_required_for_ssl' => '要使用此節點的 SSL，必須有解析為公共IP位址的完整網域名稱 (FQDN)。',
     ],
     'notices' => [
-        'allocations_added' => 'Allocations have successfully been added to this node.',
-        'node_deleted' => 'Node has been successfully removed from the panel.',
-        'location_required' => 'You must have at least one location configured before you can add a node to this panel.',
-        'node_created' => 'Successfully created new node. You can automatically configure the daemon on this machine by visiting the \'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
-        'node_updated' => 'Node information has been updated. If any daemon settings were changed you will need to reboot it for those changes to take effect.',
-        'unallocated_deleted' => 'Deleted all un-allocated ports for <code>:ip</code>.',
+        'allocations_added' => '連接阜已被新增到節點。',
+        'node_deleted' => '節點已成功刪除。',
+        'location_required' => '你必須至少擁有一個地點才能新增新節點。',
+        'node_created' => '節點已成功創建。 你可以前往"設定"頁面自動設定Daemon。 <strong>在創建伺服器之前，你必須至少擁有一個連接阜。</strong>',
+        'node_updated' => '節點資料已更新。 Daemon設定需要重新啟動才能生效。',
+        'unallocated_deleted' => '已刪除所有 <code>:ip</code> 裡未綁定的連接阜。',
     ],
 ];
